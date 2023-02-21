@@ -1,0 +1,4 @@
+create table member(id varchar(20) primary key, name varchar(10), password varchar(20));
+create table room(ridx int primary key auto_increment ,type varchar(10), price int);
+create table orders(oidx int primary key auto_increment, uid varchar(20), ridx int, startDate varchar(20), endDate varchar(20), oPrice int);
+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
